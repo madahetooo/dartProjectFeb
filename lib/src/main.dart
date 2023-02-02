@@ -1,3 +1,7 @@
+import 'dart:io';
+
+import 'package:testingtesting/src/atm.dart';
+
 void main() {
   // // //Declare name variable
   // var name = "Eslam Medhat";
@@ -69,11 +73,144 @@ void main() {
   //   print("x is int");
   // }
 
-  var x = 7;
-  var y = 6;
-  var z = 8;
+  // var x = 7;
+  // var y = 6;
+  // var z = 8;
+  //
+  // if (x != z) {
+  //   print("X is the not equal to z number");
+  // }
 
-  if (x != z) {
-    print("X is the not equal to z number");
-  }
+// var year =0;
+// var term = 0;
+// print("Welcome to our college");
+// print("On Which year you are enrolled ? ");
+// year = int.parse(stdin.readLineSync()!);
+//   switch(year) {
+//     case 1:
+//       print("On Which Term you are !?");
+//       term = int.parse(stdin.readLineSync()!);
+//       switch(term) {
+//         case 1:
+//           print("You have to study Math 1, Physics 1");
+//           break;
+//         case 2:
+//           print("You have to study Math 2, Physics 2");
+//           break;
+//         default:
+//       }
+//       break;
+//     case 2:
+//       print("On Which Term you are !?");
+//       term = int.parse(stdin.readLineSync()!);
+//       switch(term) {
+//         case 1:
+//           print("You have to study Math 3, Physics 3");
+//           break;
+//         case 2:
+//           print("You have to study Math 4, Physics 4");
+//           break;
+//         default:
+//       }
+//       break;
+//     default:{
+//       print("Not Valid Input");
+//     }
+//   }
+
+//   var listOfNumber = [10, 20, 30, 40, 50];
+//   print(listOfNumber);
+//   print(listOfNumber.isEmpty);
+//   print(listOfNumber.isNotEmpty);
+//   print(listOfNumber.length);
+//   print(listOfNumber.first);
+//   print(listOfNumber.last);
+// // listOfNumber.clear();
+//   listOfNumber.add(60);
+//   listOfNumber.addAll([70, 80, 90]);
+//   print(listOfNumber);
+//   listOfNumber.removeAt(0);
+//   print(listOfNumber);
+//   listOfNumber.replaceRange(0, 2, [10, 20, 30]);
+//   print(listOfNumber);
+//   listOfNumber.insert(0, 9);
+//   print(listOfNumber);
+//   listOfNumber.remove(9);
+//   print(listOfNumber);
+//   listOfNumber.removeRange(0, 2);
+//   print(listOfNumber);
+//   print(listOfNumber.contains(80));
+
+
+  // var user = {
+  //   'name' : 'Eslam Medhat',
+  //   'email' : 'ieslammedhat@gmail.com',
+  // };
+  // user['phone'] = '012431234';
+  // print(user);
+
+
+  // var student = Map();
+  // student['name'] = 'Eslam';
+  // student['age'] = '27';
+  // student['country'] = 'Egypt';
+  // student['title'] = 'GDE';
+  // print(student);
+  // print(student.keys);
+  // print(student.values);
+  // print(student.keys.toList()[0]);
+
+  // var names = ["Eslam","Abdulrahman","Samir"];
+  // var element = "";
+  // for(element in names){
+  //   print(element);
+  // }
+
+  // names.forEach((element) {
+  //   print("${names.indexOf(element)} : $names");
+  // });
+
+
+  //Initializer
+  //Condition
+  //Counter
+  //Statement
+  // for(int number = 1 ; number < 10; number++){
+  //   print("Hello World");
+  // }
+
+  //Initializer
+  //Condition
+  //Statement
+  //Counter
+  // int number =1;
+  // while(number<10){
+  //   print("HelloWorld");
+  //   number++;
+  // }
+
+
+
+
+
+  //Initializer
+  //Statement
+  //Counter
+  //Conditon
+  // int number = 1;
+  // do{
+  //   print("Hello World");
+  //   number++;
+  // }while(number<10);
+
+  // var result = sum(10,20);
+  // print("Your result is =$result");
+
+  var atm = ATM();
+  atm.getUserInformation();
+
 }
+// int sum(int x, int y){
+//   var operation = x + y ;
+//   return operation;
+// }
