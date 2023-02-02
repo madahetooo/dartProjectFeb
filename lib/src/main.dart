@@ -1,6 +1,11 @@
 import 'dart:io';
 
 import 'package:testingtesting/src/atm.dart';
+import 'package:testingtesting/src/cat.dart';
+import 'package:testingtesting/src/count.dart';
+import 'package:testingtesting/src/dog.dart';
+import 'package:testingtesting/src/parrot.dart';
+import 'package:testingtesting/src/police_dog.dart';
 
 void main() {
   // // //Declare name variable
@@ -206,10 +211,29 @@ void main() {
   // var result = sum(10,20);
   // print("Your result is =$result");
 
-  var atm = ATM();
-  atm.getUserInformation();
+  // var atm = ATM("Cairo",3);
+  // atm.getUserInformation();
+
+
+  // var count1 = Count();
+  // var count2 = Count();
+  // var count3 = Count();
+
+
+  // var smallCat = Cat();
+  // smallCat.eating();
+  // var smallDog = Dog();
+  // smallDog.eating();
+
+  // var policeDog = PoliceDog();
+  // policeDog.eating();
+
+  var parrot = Parrot();
+  parrot.speak();
 
 }
+
+
 // int sum(int x, int y){
 //   var operation = x + y ;
 //   return operation;
