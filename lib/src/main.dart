@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:testingtesting/src/atm.dart';
 import 'package:testingtesting/src/cat.dart';
+import 'package:testingtesting/src/company.dart';
 import 'package:testingtesting/src/count.dart';
 import 'package:testingtesting/src/dog.dart';
 import 'package:testingtesting/src/parrot.dart';
@@ -228,8 +229,10 @@ void main() {
   // var policeDog = PoliceDog();
   // policeDog.eating();
 
-  var parrot = Parrot();
-  parrot.speak();
+  // var parrot = Parrot();
+  // parrot.speak();
+
+
 
 }
 

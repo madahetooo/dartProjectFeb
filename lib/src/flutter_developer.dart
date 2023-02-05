@@ -1,6 +1,8 @@
 import 'package:testingtesting/src/company.dart';
+import 'package:testingtesting/src/contract.dart';
+import 'package:testingtesting/src/nda.dart';
 
-class FlutterDeveloper extends Company{
+class FlutterDeveloper extends Company implements Contract,NDA{
   @override
   void benefits() {
     print("you can get 300USD as bonus");
@@ -23,6 +25,16 @@ class FlutterDeveloper extends Company{
   void workingHours() {
     print("you have to work 30 hrs per week");
 
+  }
+
+  @override
+  void noticePeriod() {
+    print("Notice Period 2 Months.");
+  }
+
+  @override
+  void doNotTellAnyOneAnyThing() {
+    // TODO: implement doNotTellAnyOneAnyThing
   }
 
 }
